@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  .scrollbar-thumb-blue-500 {
+    scrollbar-color: #3b82f6 #e5e7eb;
+  }
+  .scrollbar-track-gray-100 {
+    scrollbar-color: #3b82f6 #e5e7eb;
+  }
+}
